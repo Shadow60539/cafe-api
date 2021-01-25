@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 ##Connect to Database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://iyfbzhxzryhdne:90dff2c857a47d5136cba7c94dcab41662dab1b931cb28c97ebdab69df8eb7f5@ec2-52-54-174-5.compute-1.amazonaws.com:5432/del3ul7iohu30a'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
